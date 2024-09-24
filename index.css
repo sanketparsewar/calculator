@@ -1,0 +1,78 @@
+body{
+     height: 100vh;
+}
+.container{
+    background-color: rgb(95, 122, 113);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(100, 100, 100);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+} 
+p{
+    padding-left: 10px;
+    font-size: 20px;
+    margin: 5px auto;
+    color: white;
+    font-weight: bold;
+}
+.top{
+    display: flex;
+}
+#input{
+    align-items: center;
+    align-self: center;
+    width: 90%;
+    height: 35px;
+    font-size: 20px;
+    justify-content: center;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(8, 8, 8);
+}
+
+button #cut,
+button #result,
+button #clear{
+    margin: auto auto;
+    width: fit-content;
+    align-items: end;
+    font-weight: bold;
+    justify-content: center;
+}
+#clear{
+    background-color: rgb(245, 148, 83);
+}
+#cut{
+    background-color: rgb(236, 118, 118);
+}
+#result{
+    background-color: rgb(160, 226, 133);
+}
+
+#final-result{
+    visibility: 'hidden';
+}
+
+.row{
+   justify-content: space-evenly;
+    margin-top: 10px;
+    }
+#row1,#row2,#row3,#row4{
+    display: flex;
+    height: 20%;
+}
+button{
+    width: 30%;
+    font-size: 20px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(218, 215, 213);
+    
+}
